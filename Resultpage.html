@@ -10,6 +10,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+	<script>
+		var seconds=6;
+		function displayseconds()
+		{
+			seconds-=1;
+			document.getElementById("secondsDisplay").innerText="Redirecting in "+seconds+" seconds...";
+		}
+		setInterval(displayseconds,1000);
+		
+		function redirectpage()
+		{
+			window.location="https://www.vtuguide.in/";
+		}
+		setTimeout('redirectpage()',4000);
+	</script>
+
   </head>
   <body>
     <p>YOUR RESULT</p>
@@ -18,8 +34,11 @@
       <div class="rsultdiv">
         <h1 id="result">result</h1>
         <h1 id="Percentage">Percentage</h1>
+		<div id="secondsDisplay"></div>
       </div>
+	  
       
+	 
     </div>
 
     <script src="./JS/Resultpage.js"></script>
