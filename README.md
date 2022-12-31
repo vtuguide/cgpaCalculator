@@ -2,4 +2,4 @@ CGPA CALUCLATOR
 
 Note: 
 Here Random Quotes CSS, JS Files are also Put :) 
-Instead of creating a seperate Repository.
+Instead of creating a separate Repository.
