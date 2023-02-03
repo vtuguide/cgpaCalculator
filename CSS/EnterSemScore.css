@@ -6,8 +6,7 @@ body{
     justify-content: center;
     font-size: 15px;
     background: rgb(224,247,55);
-    background: linear-gradient(90deg, rgba(224,247,55,0.9839286056219363) 0%,
-    rgba(254,255,68,1) 35%, rgba(133,240,49,1) 64%, rgba(0,212,255,1) 100%);
+   
 
 
 }
